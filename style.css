@@ -4,39 +4,47 @@
     font-family: arial, sans-serif;
     color:#262626;
     font-size: 13px;
-    border-style: sol
+}
+
+.main_nav ul {
+    list-style-type: none;
+    margin:0;
+    padding:0;
+    float: right;
+    border: 1px solid;
 }
 
 .main_nav li {
-   padding: 0.3em;
+   padding: 0px 10px 9000px 0px;
+   margin: 0px 10px 500px 0px;
    display:inline;
+   border:1px solid;
 }
 
 #avatar{
     border-radius:50%;
     width:35px;
     height:35px;
+    margin: 0px 8px 0px 0px;
 }
 
 #google_apps_icon{
+    margin: 0px 13px 7px 0px;
     width:20px;
     height:20px;
 }
 
-ul {
-    list-style-type: none;
-    margin:0;
-    padding:0;
-    float: right;
-}
 
 .main_elements_container{
+    position: relative;
     text-align: center;
-    margin: 95px 100px 100px 100px;
 }
 
 .main_elements{
     display:inline-block;
+    padding: 40px 0px 0px 0px;
+    margin: 95px 100px 100px 100px;
+    
 }
 
 img#logo{
@@ -49,7 +57,7 @@ img#logo{
 }
    
 [type ='text']{
-    width:590px;
+    width:591px;
     height:42px;
     border-radius: 50px;
     border-width: 0.90px;
@@ -57,40 +65,72 @@ img#logo{
     border-color: #BFBFBF;
     margin: 22px 0px 0px 0px;
     font-family: arial, sans-serif;
+    
+}
+
+#button_style{
+margin:30px 0px 0px 0px;
 }
 
 [type='submit']{
-    font-size:14px;
+    font-size:13.90px;
     color:#676767;
     border-radius: 5px;
     border-style:solid;
     padding: 8px 16px 8px 16px;
-    border-color:#F5F5F5;
-    background-color:#F5F5F5;
+    border-color:#f2f2f2;
+    background-color:#f2f2f2;
+    
 }
 
 /*Footer*/
 
 .footer{
     position: fixed;
-    background-color:#F5F5F5;
+    background-color:#f2f2f2;
+    height:500px;
     width:100%;
     left:0px;
-    padding: 10px 20px 10px 10px;
+    padding: 0px 0px 0px 0px;
+    margin: 37px 0px 0px 0px;
     font-family: arial, sans-serif;
-    color:#676767;
-} 
+    color:#6B6B6B;
+    overflow:hidden;
+    font-family: arial, sans-serif;
+    border: 1px solid #E5E5E5;
+}
+
+hr {
+        
+        display: block;
+        height: 1px;
+        border: 0;
+        border-top: 1px solid #DCDCDC;
+        padding: 0px;
+        width:100%;
+        left:0px;
+}
  
+.footer p{
+    font-size:15px;
+    padding:0;
+    margin: 10px 0px 13px 29px;
+
+}
 .footer ul{
     list-style-type: none;
-    margin:0;
+    padding: 0;
+    margin: 5px 0px 13px 5px;
     float: left;
     font-size: 13px;
-   
 }
 .footer li{
+    font-size: 12.5px;
+    padding: 0em 0em 0em 1.89em;
     display:inline;
 }
 #footer_nav_2{
+    font-size: 12.5px;
+    padding: 0em 2.46em 0em 0em;
     float:right;
 }

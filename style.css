@@ -4,6 +4,7 @@
     font-family: arial, sans-serif;
     color:#262626;
     font-size: 13px;
+    cursor: pointer;
 }
 
 .main_nav ul {
@@ -11,14 +12,14 @@
     margin:0;
     padding:0;
     float: right;
-    border: 1px solid;
+    display:flex;
 }
 
 .main_nav li {
-   padding: 0px 10px 9000px 0px;
-   margin: 0px 10px 500px 0px;
+   padding: 10px 18px 9px 0px;
+   margin: 0px 0px 0px 0px;
    display:inline;
-   border:1px solid;
+   align-content: center;
 }
 
 #avatar{
@@ -29,7 +30,7 @@
 }
 
 #google_apps_icon{
-    margin: 0px 13px 7px 0px;
+    margin: 7px 17px 7px 0px;
     width:20px;
     height:20px;
 }
@@ -55,17 +56,29 @@ img#logo{
 #button_style{
     margin: 20px 10px 10px 20px;
 }
-   
-[type ='text']{
+form {
+    overflow: hidden;
     width:591px;
     height:42px;
-    border-radius: 50px;
+    border: 1px solid;
     border-width: 0.90px;
     border-style: solid;
     border-color: #BFBFBF;
     margin: 22px 0px 0px 0px;
+    border-radius: 50px;
+}
+.search_icon{
+    width:20px;
+    height:20px;
+    padding: 10px 5px 10px 10px;
+    float: left;
+}
+   
+[type ='text']{
     font-family: arial, sans-serif;
-    
+    height:42px;
+    width: 554px;
+    border: 0px solid;
 }
 
 #button_style{
@@ -80,7 +93,7 @@ margin:30px 0px 0px 0px;
     padding: 8px 16px 8px 16px;
     border-color:#f2f2f2;
     background-color:#f2f2f2;
-    
+    cursor: pointer;
 }
 
 /*Footer*/
@@ -113,9 +126,8 @@ hr {
  
 .footer p{
     font-size:15px;
-    padding:0;
-    margin: 10px 0px 13px 29px;
-
+    padding:0px;
+    margin: 10px 1100px 13px 29px;
 }
 .footer ul{
     list-style-type: none;
@@ -123,6 +135,7 @@ hr {
     margin: 5px 0px 13px 5px;
     float: left;
     font-size: 13px;
+    cursor: pointer;
 }
 .footer li{
     font-size: 12.5px;
